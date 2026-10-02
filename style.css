@@ -1,0 +1,49 @@
+/* Reset basic browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main website styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+    padding: 80px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+/* Second heading */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+/* CTA button */
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 15px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
